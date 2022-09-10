@@ -24,3 +24,37 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container1 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.container2 {
+  display: flex;
+  gap: 52px; /* Change to a suitable val */
+}
+
+.fruit-container {
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; seems not useful */
+  /* margin: auto 52px; */
+  max-width: 200px; /* was width but seems no effect in this context just be aware there is max and there is width itself */
+}
+
+.text {
+  /* overflow-wrap: break-word; not useful here */
+  text-align: center; /* you forgot this one to center the text and used margin instead !!! */
+}
+
+/* this img one is useless btw */
+img {
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 30px; */
+}
