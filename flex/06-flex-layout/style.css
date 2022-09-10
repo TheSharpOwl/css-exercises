@@ -25,3 +25,30 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* my try */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 0; /* because About was going to the right for some reason and padding was 40 in insepctor */
+}
+
+/* remove bulltes from ul lists */
+ul {
+  list-style-type: none;
+}
+
+
