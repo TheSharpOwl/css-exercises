@@ -36,13 +36,18 @@ body {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 3px 20px;
+}
+
+/* just the footer should have gray background */
+.footer {
+  background-color: #eeeeee;
 }
 
 .left-links, .right-links {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
   padding-left: 0; /* because About was going to the right for some reason and padding was 40 in insepctor */
 }
 
@@ -51,4 +56,28 @@ ul {
   list-style-type: none;
 }
 
+.content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons button { 
+  padding: 10px;
+}
+/* remove the blue underline from all links */
+body a {
+  color:#000000;
+  text-decoration: none;
+}
 
