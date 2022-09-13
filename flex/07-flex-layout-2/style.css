@@ -26,3 +26,28 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* my solution */
+
+.header {
+  display: flex;
+}
+
+.header-container {
+  color: white;
+  font-size: 32px;
+  font-weight: 900px;
+  padding-left: 16px;
+  margin: auto 0;
+  padding: auto 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.middle {
+  flex: 100% 1 0;
+}
