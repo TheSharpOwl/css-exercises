@@ -63,12 +63,14 @@ flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 3% 10% 3% 3%;
+  gap: 1%;
 }
 
 .card {
-  width: 33%;
-  height: 50%;
+  width: 20%;
+  height: 55%;
   flex-shrink: 1;
   flex-basis: 1;
+  margin-bottom: 1%;
   overflow-wrap: break-word;
 }
