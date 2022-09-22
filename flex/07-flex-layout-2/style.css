@@ -50,4 +50,25 @@ body {
 
 .middle {
   flex: 100% 1 0;
+  display: flex;
+}
+
+.sidebar {
+display: flex;
+flex-direction: column;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 3% 10% 3% 3%;
+}
+
+.card {
+  width: 33%;
+  height: 50%;
+  flex-shrink: 1;
+  flex-basis: 1;
+  overflow-wrap: break-word;
 }
