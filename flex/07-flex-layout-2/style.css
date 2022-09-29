@@ -72,14 +72,16 @@ flex-basis: 300px;
 }
 
 .card {
-  width: 20%;
+  width: min(100%,250px);
   /* height: 55%; */
-  flex-shrink: 1;
+  flex-shrink: 0;
   flex-basis: 1;
+  flex-grow: 0;
   /* flex-grow: 0; */
   margin-bottom: 1%;
   padding: 17px;
-  overflow-wrap: break-word;
+  /* overflow-wrap: break-word; */
+  /* white-space: nowrap; */
 }
 
 ul {
