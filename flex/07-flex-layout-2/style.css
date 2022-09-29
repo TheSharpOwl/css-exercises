@@ -65,22 +65,29 @@ flex-basis: 300px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 3% 10% 3% 3%;
-  gap: 1%;
+  /* margin: 3% 10% 3% 3%; */
+  margin-right: 10%;
+  gap: 5%;
+  padding: 32px;
 }
 
 .card {
   width: 20%;
-  height: 55%;
+  /* height: 55%; */
   flex-shrink: 1;
   flex-basis: 1;
+  /* flex-grow: 0; */
   margin-bottom: 1%;
+  padding: 17px;
   overflow-wrap: break-word;
 }
 
 ul {
   list-style-type: none;
+  font-size: 24px;
+  color: white;
 }
+
 /* 
 a:hover,
 a:visited,
@@ -90,7 +97,7 @@ a:active {
 
 .sidebar {
   width: 100%;
-  padding: 0;
+  padding: 16px;
 }
 
 .sidebar-list {
@@ -104,3 +111,15 @@ a {
   text-decoration: none;
   color: #eeeeee;
 }
+
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-shrink: 0;  seems useless */
+}
+
+/* .footer p {
+  flex-shrink: 0;
+} */
